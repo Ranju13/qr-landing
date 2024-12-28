@@ -36,7 +36,7 @@ const SocialMedia = () => {
                 alt='mail-logo' 
                 width={'50px'} 
                 className='mx-3 cursor-pointer transition ease-in-out hover:scale-110'
-                onClick={() => window.open('mailto:[ranjeet.kannan13@gmail.com]?subject=Subject=Please%Send%Us%Your%Feedback&body=Body%20goes%20here')}
+                onClick={() => window.open('mailto:ranjeet.kannan13@gmail.com?subject=Please%20Send%20Us%20Your%20Feedback&body=Body%20goes%20here')}
                 />
 
             <img 
