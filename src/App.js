@@ -1,17 +1,18 @@
 import { FaCalendarAlt } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaPhoneAlt } from "react-icons/fa";
-
-import './App.css';
 import SocialMedia from './components/socialMedia/SocialMedia';
+import Logo from './images/logopng.png';
+import './App.css';
+
 
 function App() {
   return (
     <div>
-       <h2 className='my-10 text-3xl font-extrabold text-center text-white underline'>Connect with us</h2>
-        <div className='flex pt-3 justify-around items-center flex-col lg:flex-row'>
+       <h2 className='mt-10 text-3xl font-extrabold text-center text-white underline'>Connect with us</h2>
+        <img src={Logo} alt="logo" className="justify-self-center" />
+        <div className='flex -mt-10 justify-around items-center flex-col lg:flex-row'>
             <div className='mx-8'>
-                <p className='font-semibold text-3xl pb-5 text-white'>Golden Thread Aari Works</p>
                 <p className='pb-5 text-white'><FaCalendarAlt /> Monday - Saturday</p>
                 <p className='pb-5 text-white'><FaLocationDot />No.3, Malligai Street, Girija Nagar, Ernavur, Chennai - 600057</p>
                 <p className='pb-9 text-white'><FaPhoneAlt />+91 6369691930</p>
